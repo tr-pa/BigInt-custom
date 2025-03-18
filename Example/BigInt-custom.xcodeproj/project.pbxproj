@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		2ADDFF72E5880FCB5116915B /* Pods-BigInt-custom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigInt-custom_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BigInt-custom_Tests/Pods-BigInt-custom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		476860BD57F41FEEC43EED71 /* Pods-BigInt-custom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigInt-custom_Tests.release.xcconfig"; path = "Target Support Files/Pods-BigInt-custom_Tests/Pods-BigInt-custom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4E7CA3758989105AEE43FF33 /* BigInt-custom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "BigInt-custom.podspec"; path = "../BigInt-custom.podspec"; sourceTree = "<group>"; };
+		4E7CA3758989105AEE43FF33 /* BigInt-custom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "BigInt-custom.podspec"; path = "../BigInt-custom.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5825B693D9CC67B4FD97C261 /* Pods-BigInt-custom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigInt-custom_Example.debug.xcconfig"; path = "Target Support Files/Pods-BigInt-custom_Example/Pods-BigInt-custom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BigInt-custom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BigInt-custom_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* BigInt-custom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BigInt-custom_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		76E530D51B34D6135FD22C6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		76E530D51B34D6135FD22C6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7EE058A7AD760086D2705DD5 /* Pods-BigInt-custom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigInt-custom_Example.release.xcconfig"; path = "Target Support Files/Pods-BigInt-custom_Example/Pods-BigInt-custom_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B06CB5656F57D2A56F16743E /* Pods_BigInt_custom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigInt_custom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11EEB7DD4A41BCB47EF4646 /* Pods_BigInt_custom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigInt_custom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F16B619B20543711E8842F14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F16B619B20543711E8842F14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				2ADDFF72E5880FCB5116915B /* Pods-BigInt-custom_Tests.debug.xcconfig */,
 				476860BD57F41FEEC43EED71 /* Pods-BigInt-custom_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,11 +269,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BigInt-custom_Example/Pods-BigInt-custom_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BigInt-custom/BigInt_custom.framework",
+				"${BUILT_PRODUCTS_DIR}/BigInt-custom/BigInt.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt_custom.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
